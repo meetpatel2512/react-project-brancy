@@ -20,11 +20,11 @@ root.render(
   <>
     {/* <Header /> */}
     {/* <Banner /> */}
-    {/* <Categories /> */}
+    <Categories />
     <TopSales />
-    {/* <ProductsDivider /> */}
-    {/* <Blogs /> */}
-    {/* <JoinUs /> */}
+    <ProductsDivider />
+    <Blogs />
+    <JoinUs />
     <Footer />
   </>,
 );
