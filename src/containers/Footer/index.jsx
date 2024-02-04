@@ -3,8 +3,8 @@ import { FaHeart } from "react-icons/fa";
 
 import { FaTwitter, FaFacebookF, FaPinterestP } from "react-icons/fa";
 function Footer() {
-  return <div className='w-screen bg-gray-50'>
-    <div className='mx-auto md:w-[1280px] md:ps-10 px-3'>
+  return <div className='w-screen '>
+    <div className='mx-auto md:w-[1280px] md:ps-10 px-3 bg-gray-50'>
       <div className=' flex justify-between flex-wrap py-5 gap-8 px-5'>
         <div className='flex flex-col gap-4 md:w-1/3'>
           <img src="https://template.hasthemes.com/brancy/brancy/assets/images/logo.webp" alt="log" height={80} width={80} />
