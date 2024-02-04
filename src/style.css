@@ -11,6 +11,7 @@
 .card:hover img {
   transform: rotatey(360deg);
 }
+
 .joinus{
   background-repeat: no-repeat;
   background-image: url('https://brancy.netlify.app/assets/images/shop/banner/7.webp');

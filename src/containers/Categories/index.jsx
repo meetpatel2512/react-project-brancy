@@ -1,11 +1,16 @@
 import React from 'react';
 import { CategoriesData } from '../../Data/index.js';
+import Badge from '../../components/Badge/index.jsx';
 function Categories() {
-  return <div className='mx-auto md:w-[1280px] px-10'>
-    <div className='flex justify-center md:justify-between flex-wrap items-center gap-4'>
+  return <div className='mx-auto md:w-[1280px] md:ps-10 my-20 px-3'>
+    <div className='flex justify-center lg:justify-between flex-wrap items-center gap-4'>
 
       {CategoriesData.map((data) => {
-        return <div className={`card h-52 transition-all duration-500 cursor-pointer hover:shadow-2xl aspect-square md:aspect-3/4 flex flex-col justify-center items-center gap-6 rounded-lg ${data.bgcolor}`}>
+        return <div className={`card h-52 relative transition-all duration-500 cursor-pointer hover:shadow-2xl aspect-square md:aspect-3/4 flex flex-col justify-center items-center gap-6 rounded-lg ${data.bgcolor}`} key={data.image}>
+
+          <div className='absolute top-3 right-4 md:top-0 md:right-0 md:-my-3 md:-rotate-90'>
+            {data.badge && <Badge bg_color={data.badge_color} value={data.badge}/>}
+          </div>
           <img src={data.image} alt="" className='' />
 
           <div className='flex justify-center items-center gap-1 flex-col'>
@@ -14,6 +19,7 @@ function Categories() {
               <p className='capitalize'>{data.title}</p>
             </div>
           </div>
+
         </div>
       })}
 

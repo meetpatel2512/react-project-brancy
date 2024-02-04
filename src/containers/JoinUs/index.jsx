@@ -1,7 +1,7 @@
 import React from 'react';
 
 function JoinUs() {
-  return <div className='mx-auto md:w-[1280px] px-10'>
+  return <div className='mx-auto md:w-[1280px] md:ps-10 my-20 px-3'>
     <div className='flex justify-around h-60 rounded-xl items-center joinus text-white flex-wrap'>
       <div>
         <p className='text-5xl capitalize'>join with us</p>
