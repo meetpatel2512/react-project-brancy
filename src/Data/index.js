@@ -163,8 +163,7 @@ const BlogsData = [
     imgURL:
       'https://template.hasthemes.com/brancy/brancy/assets/images/blog/1.webp',
     btntext: 'beauty',
-    btnColor: 'bg-red-300',
-    hover_btnColor: 'bg-red-500',
+    btnColor: 'bg-red-300 hover:bg-red-500',
     title: 'Lorem ipsum dolor sit amet consectetur adipiscing.',
     author: 'TOMAS DE MOMEN',
     date: 'FEBRUARY 13, 2022',
@@ -173,8 +172,7 @@ const BlogsData = [
     imgURL:
       'https://template.hasthemes.com/brancy/brancy/assets/images/blog/2.webp',
     btntext: 'beauty',
-    btnColor: 'bg-violet-300',
-    hover_btnColor: 'bg-violet-500',
+    btnColor: 'bg-violet-300 hover:bg-violet-500',
     title: 'Lorem ipsum dolor sit amet consectetur adipiscing.',
     author: 'TOMAS DE MOMEN',
     date: 'FEBRUARY 13, 2022',
@@ -183,8 +181,7 @@ const BlogsData = [
     imgURL:
       'https://template.hasthemes.com/brancy/brancy/assets/images/blog/3.webp',
     btntext: 'beauty',
-    btnColor: 'bg-cyan-300',
-    hover_btnColor: 'bg-cyan-500',
+    btnColor: 'bg-cyan-300 hover:bg-cyan-500',
     title: 'Lorem ipsum dolor sit amet consectetur adipiscing.',
     author: 'TOMAS DE MOMEN',
     date: 'FEBRUARY 13, 2022',

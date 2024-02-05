@@ -26,5 +26,5 @@ root.render(
     <Blogs />
     <JoinUs />
     <Footer />
-  </>,
-);
+  </>
+)

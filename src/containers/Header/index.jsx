@@ -3,8 +3,8 @@ import { IoMdSearch } from "react-icons/io";
 import { FaShoppingBasket, FaUser } from "react-icons/fa";
 
 function Header() {
-  return <div className='mx-auto md:w-[1280px] md:ps-10 px-3'>
-    <div className="flex items-center relative py-3 ps-5 w-full bg-white z-10">
+  return <div className=''>
+    <div className="flex items-center relative py-3 w-full bg-white z-10">
 
       <img src="https://template.hasthemes.com/brancy/brancy/assets/images/logo.webp" alt="log" className="mx-5 w-16 object-cover" />
       <div className="w-full">

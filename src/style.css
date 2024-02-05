@@ -12,8 +12,8 @@
   transform: rotatey(360deg);
 }
 
-.joinus{
+.joinus {
   background-repeat: no-repeat;
-  background-image: url('https://brancy.netlify.app/assets/images/shop/banner/7.webp');
+  background-image: url('https://template.hasthemes.com/brancy/brancy/assets/images/photos/bg1.webp');
   background-size: cover;
 }
